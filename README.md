@@ -67,7 +67,7 @@ Before writing application code, adapt the project context. For the real estate 
 
 For that example, you can start an AI-assisted session with this prompt:
 
-> I am starting a real estate application from this starter kit. First, read `AGENTS.md` and the relevant files in `.ai/`. Then update the project overview, business rules, README, and a first verifiable requirement for a minimal property listings feature. Do not implement application code yet. Summarize the proposed scope and assumptions for review.
+> I am starting a real estate application from this starter kit. I have attached or linked real project context, such as screenshots, existing designs, and reference documents; use it to inform the initial project vision and documentation. First, read `AGENTS.md` and the relevant files in `.ai/`. Then update the project overview, business rules, README, and a first verifiable requirement for a minimal property listings feature. Do not implement application code yet. Summarize the proposed scope and assumptions for review.
 
 After approving that context and requirement, use the implementation workflow to begin building the application.
 
