@@ -1,8 +1,8 @@
 # AI-first Starter Kit
 
-![AI-first Starter Kit banner](banner-1544x500.png)
-
 A lightweight, open-source reference for exploring AI-first software development with shared agents, skills, rules, and project context.
+
+![AI-first Starter Kit banner](banner-1544x500.png)
 
 ## What’s included
 
@@ -72,6 +72,14 @@ For that example, you can start an AI-assisted session with this prompt:
 > I am starting a real estate application from this starter kit. I have attached or linked real project context, such as screenshots, existing designs, and reference documents; use it to inform the initial project vision and documentation. First, read `AGENTS.md` and the relevant files in `.ai/`. Then update the project overview, business rules, README, and a first verifiable requirement for a minimal property listings feature. Do not implement application code yet. Summarize the proposed scope and assumptions for review.
 
 After approving that context and requirement, use the implementation workflow to begin building the application.
+
+## Customizations
+
+Make this starter kit your own as the project grows. You can add specialized roles in `.agents/agents/`, reusable workflows in `.agents/skills/`, and adapters for additional AI coding tools. Contributions that improve those shared resources are welcome.
+
+Choose an automated testing framework for your application, document its test command, and declare the corresponding rule in `.agents/rules/testing.md`. Keep `tests/` current and run the relevant suite on every task that changes application behavior.
+
+Possible testing tools include [Jest](https://jestjs.io/), [CodeceptJS AI](https://codecept.io/ai/), [Codeception](https://codeception.com/), and [Selenium](https://www.selenium.dev/), among many other options. Select the tool that fits your language, framework, and application needs.
 
 ## Scope and limitations
 
