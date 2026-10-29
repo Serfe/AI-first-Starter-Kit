@@ -1,5 +1,7 @@
 # AI-first Starter Kit
 
+![AI-first Starter Kit banner](banner-1544x500.png)
+
 A lightweight, open-source reference for exploring AI-first software development with shared agents, skills, rules, and project context.
 
 ## What’s included
