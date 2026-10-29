@@ -1,3 +1,8 @@
+---
+name: implement-task
+description: Use when implementing a bounded requirement and making a focused, testable change.
+---
+
 # Implement task
 
 Use this workflow to implement a bounded requirement.

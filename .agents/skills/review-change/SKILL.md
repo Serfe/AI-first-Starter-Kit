@@ -1,3 +1,8 @@
+---
+name: review-change
+description: Use when independently reviewing a change for correctness, security, maintainability, tests, and documentation.
+---
+
 # Review change
 
 Use this workflow for an independent review.

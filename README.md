@@ -22,7 +22,7 @@ A lightweight, open-source reference for exploring AI-first software development
 | --- | --- |
 | Codex | Reads `AGENTS.md`; shared workflows live in `.agents/skills/`. |
 | Claude Code | `CLAUDE.md` imports `AGENTS.md`; `.claude/skills/` links to canonical workflows. |
-| OpenCode | `opencode.json` loads the canonical agent prompts directly. |
+| OpenCode | `opencode.json` loads the canonical agent prompts and discovers workflows from `.agents/skills/`. |
 
 ## Repository structure
 

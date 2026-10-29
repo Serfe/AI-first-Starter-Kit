@@ -1,3 +1,8 @@
+---
+name: verify-change
+description: Use after an implementation or documentation change to verify evidence, scope, and readiness for review.
+---
+
 # Verify change
 
 Use this workflow after an implementation or documentation change.
