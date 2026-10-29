@@ -43,9 +43,11 @@ tests/     Application tests
 3. Follow `verify-change` to run relevant checks and report evidence.
 4. Use `review-change` for an independent quality review.
 
-## Start a Real Estate Project
+## Start Your Project
 
-Use this starter kit as a foundation, not as the identity of your final project. After cloning it, remove the remote that points to this repository and add the remote for your new project:
+Use this starter kit as a foundation, not as the identity of your final project. The steps below use a real estate application as a concrete example; adapt the project context and prompt to your own domain.
+
+After cloning it, remove the remote that points to this repository and add the remote for your new project:
 
 ```bash
 git remote remove origin
@@ -55,7 +57,7 @@ git remote -v
 
 If you downloaded a ZIP file instead, initialize a new Git repository before adding its remote.
 
-Before writing application code, adapt the project context to your real estate product:
+Before writing application code, adapt the project context. For the real estate example, this means defining the following:
 
 - `README.md`: project name, purpose, and setup instructions.
 - `.ai/project-overview.md`: product scope and intended users.
@@ -63,7 +65,7 @@ Before writing application code, adapt the project context to your real estate p
 - `.ai/requirements/`: a first small, verifiable requirement.
 - `app/README.md`: application stack, run command, and test command once those decisions exist.
 
-You can start an AI-assisted session with this prompt:
+For that example, you can start an AI-assisted session with this prompt:
 
 > I am starting a real estate application from this starter kit. First, read `AGENTS.md` and the relevant files in `.ai/`. Then update the project overview, business rules, README, and a first verifiable requirement for a minimal property listings feature. Do not implement application code yet. Summarize the proposed scope and assumptions for review.
 
