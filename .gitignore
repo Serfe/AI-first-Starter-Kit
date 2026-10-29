@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+coverage/
+dist/
+build/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.claude/settings.local.json
+.codex/settings.local.json
+.opencode/settings.local.json

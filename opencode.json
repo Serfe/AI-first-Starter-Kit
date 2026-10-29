@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "developer": {
+      "description": "Implements scoped development tasks.",
+      "mode": "primary",
+      "prompt": "{file:./.agents/agents/developer.md}"
+    },
+    "reviewer": {
+      "description": "Reviews changes for correctness and quality.",
+      "mode": "subagent",
+      "prompt": "{file:./.agents/agents/reviewer.md}",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny"
+      }
+    }
+  }
+}
